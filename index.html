@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spin Wheel – Cash Picker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1 class="title">Spin & Win</h1>
+
+    <div class="wheel-wrap">
+      <!-- Wheel -->
+      <div id="wheelContainer" class="wheel-container">
+        <canvas id="wheelCanvas" width="600" height="600"></canvas>
+      </div>
+      <!-- Pointer (fixed at center top of wheel) -->
+      <div class="pointer"></div>
+    </div>
+
+    <div class="controls">
+      <button id="spinBtn" class="btn">Spin</button>
+      <div id="result" class="result">Click Spin to try your luck</div>
+    </div>
+
+    <footer class="footer">
+      <small>Values on wheel: 30, 35, 45, 50, 49, 80, 63, 78, 94, 56, 39, 105, 149, 130, 99</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
